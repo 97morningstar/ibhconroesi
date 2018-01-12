@@ -1,0 +1,55 @@
+div.slide-show.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+/********** SLIDER **********/
+.slider {
+/*  max-width: 100%;*/
+  margin: 0px auto 30px auto;
+
+}
+
+.slide-viewer {
+    position: relative; /* needed for IE7 */
+    overflow: hidden;
+    height: 430px;
+  }
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;}
+
+.slide {
+     top: 0px !important;
+     width: 100%;
+    height: 100%;
+    display: none;
+   position: absolute;
+  /* transform: rotate(-270deg);*/
+ }
+
+.slide:first-child {
+    display: block;
+  }
+
+
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;
+}
+
+.slide-btn {
+  border: none;
+  background: none;
+  color: black;
+  font-size: 200%;
+  line-height: 0.5em;
+}
+
+.slide-btn.active, .slide-btn:hover {
+  background: #0b385f !important;
+  cursor: pointer;
+}

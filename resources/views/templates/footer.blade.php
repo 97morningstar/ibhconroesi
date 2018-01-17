@@ -8,13 +8,13 @@
 				<div class="redes">
 					<ul class="redes">
 						<li class="facebook">
-							<a href="#"><img src="/images/facebook.png"></a>
+							<a href="https://www.facebook.com/ibhconroe/" target="_blank"><img src="/images/facebook.png"></a>
 						</li>
 						<li class="twitter">
-							<a href="#"><img src="/images/twitter.png"></a>
+							<a href="https://twitter.com/ibhconroe" target="_blank"><img src="/images/twitter.png"></a>
 						</li>
 						<li class="mail">
-							<a href="#"><img src="/images/btn_mail.png"></a>
+							<a href="mailto:ibhconroe@gmail.com" target="_blank"><img src="/images/btn_mail.png"></a>
 						</li>
 					</ul>
 				</div>

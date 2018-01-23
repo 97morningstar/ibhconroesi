@@ -434,6 +434,11 @@ div#map_infoo{
 		padding-top: 30px;
 	}
 
+	div.div_inc{
+	height: 400px;
+	background: url('../images/Fotos/Galeria/IMG_20170917_150531_243 - tablet.jpg');
+}
+
 }
 
 /***************** Estilos Header min-992px grande para laptops*****************************/
@@ -540,6 +545,11 @@ iframe#map{
 		padding-top: 30px;
 	}
 
+	div.div_inc{
+	height: 400px;
+	background: url('../images/Fotos/Galeria/IMG_20170917_150531_243.jpg');
+}
+
 }
 
 
@@ -613,7 +623,10 @@ iframe#map{
 		padding-top: 30px;
 	}
 
-
+div.div_inc{
+	height: 400px;
+	background: url('../images/Fotos/Galeria/IMG_20170917_150531_243.jpg');
+}
 
 }
 
@@ -650,6 +663,10 @@ div.map-info{
 	div#side_div{
 		display: none;
 	}
+		div.div_inc{
+	height: 400px;
+	background: url('../images/Fotos/Galeria/IMG_20170917_150531_243 - phone.jpg');
+}
 
 }
 
@@ -683,6 +700,10 @@ div.map-info{
 	div#side_div{
 		display: none;
 	}
+		div.div_inc{
+	height: 400px;
+	background: url('../images/Fotos/Galeria/IMG_20170917_150531_243 - phone.jpg');
+}
 
 }
 
@@ -714,6 +735,10 @@ div.map-info{
 	div#side_div{
 		display: none;
 	}
+		div.div_inc{
+	height: 400px;
+	background: url('../images/Fotos/Galeria/IMG_20170917_150531_243 - phone.jpg');
+}
 }
 
 
@@ -931,10 +956,7 @@ a.btn#btn_form:hover{
 	background: rgb(221, 221, 221);
 }
 
-div.div_inc{
-	height: 400px;
-	background: url('../resources/images/slide/2.jpg');
-}
+
 
 
 .arrow {

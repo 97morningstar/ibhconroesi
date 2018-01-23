@@ -125,7 +125,7 @@
 
 	<!-- Js files -->
 		<!-- Bootstrap JS -->		 
-<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
 		<!-- jQuery JS -->

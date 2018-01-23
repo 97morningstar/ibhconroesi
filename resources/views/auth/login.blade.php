@@ -13,8 +13,8 @@
 		<br>
 		<br>
 		<div class="form-group text-center">
-			<input class="form-control" type="email" name="email" placeholder="Correo"><br>
-			<input class="form-control" type="password" name="password" placeholder="Contraseña"><br>
+			<input class="form-control" type="email" name="email" placeholder="Correo"><br><br>
+			<input class="form-control" type="password" name="password" placeholder="Contraseña"><br><br>
 			<input class="btn btn-primary" type="submit" value="Entrar">
 		</div>
 	</form>

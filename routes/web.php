@@ -14,9 +14,9 @@ use App\Mail\DemoMail;
 
 Route::get('test', function(){
 	$user = new App\User;
-	$user->name = 'Isaias';
-	$user->email = 'isaiasmj1966@gmail.com';
-	$user->password = bcrypt('bersalles66');
+	$user->name = 'Elisa';
+	$user->email = '97morningstar@gmail.com';
+	$user->password = bcrypt('elisa1997');
 	$user->save();
 
 	return $user;

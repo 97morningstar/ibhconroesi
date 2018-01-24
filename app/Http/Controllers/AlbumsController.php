@@ -87,11 +87,11 @@ class AlbumsController extends Controller
 
 
   
-      Storage::delete('public/album_covers/'.$album->cover_image);
+      Storage::delete('storage/album_covers/'.$album->cover_image);
        // dd($album);
       foreach ($album->photos as $d) {
        
-       Storage::delete('public/photos/'.$id.'/'.$d->photo);
+       Storage::delete('storage/photos/'.$id.'/'.$d->photo);
 
         $d->delete();
         }

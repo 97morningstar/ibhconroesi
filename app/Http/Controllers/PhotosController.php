@@ -39,7 +39,7 @@ class PhotosController extends Controller
       $filenameToStore = $filename.'_'.time().'.'.$extension;
 
       // Uplaod image
-      $path= $request->file('photo')->move('storage/photos/'.$request->input('album_id'), $filenameToStore);
+      $path= $request->file('photo')->move('/storage/photos/'.$request->input('album_id'), $filenameToStore);
 
         // Create photo
       $photo = new Photo;
@@ -64,7 +64,7 @@ class PhotosController extends Controller
       $photo = Photo::findOrFail($id);
 //dd($id);
     
-          Storage::delete('storage/photos/'.$id.'/'.$d->photo);
+          Storage::delete('/storage/photos/'.$id.'/'.$d->photo);
         $photo->delete();
 
         return redirect('/albums/'.$photo->album_id)->with('success', 'Photo Deleted');

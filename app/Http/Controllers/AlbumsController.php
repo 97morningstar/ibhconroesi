@@ -45,7 +45,7 @@ class AlbumsController extends Controller
       $filenameToStore = $filename.'_'.time().'.'.$extension;
 
       // Uplaod image
-      $path= $request->file('cover_image')->move('storage/album_covers', $filenameToStore);
+      $path= $request->file('cover_image')->move('/storage/album_covers', $filenameToStore);
 
 
 //Investigar el path file con laravel 
@@ -87,11 +87,11 @@ class AlbumsController extends Controller
 
 
   
-      Storage::delete('storage/album_covers/'.$album->cover_image);
+      Storage::delete('/storage/album_covers/'.$album->cover_image);
        // dd($album);
       foreach ($album->photos as $d) {
        
-       Storage::delete('storage/photos/'.$id.'/'.$d->photo);
+       Storage::delete('/storage/photos/'.$id.'/'.$d->photo);
 
         $d->delete();
         }

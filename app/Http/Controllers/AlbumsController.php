@@ -45,7 +45,7 @@ class AlbumsController extends Controller
       $filenameToStore = $filename.'_'.time().'.'.$extension;
 
       // Uplaod image
-      $path= $request->file('cover_image')->move('/storage/album_covers', $filenameToStore);
+      $path= $request->file('cover_image')->move('storage/album_covers', $filenameToStore);
 
 
 //Investigar el path file con laravel 

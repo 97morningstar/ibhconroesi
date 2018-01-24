@@ -39,7 +39,7 @@ class PhotosController extends Controller
       $filenameToStore = $filename.'_'.time().'.'.$extension;
 
       // Uplaod image
-      $path= $request->file('photo')->storeAs('public/photos/'.$request->input('album_id'), $filenameToStore);
+      $path= $request->file('photo')->storeAs('storage/photos/'.$request->input('album_id'), $filenameToStore);
 
         // Create photo
       $photo = new Photo;

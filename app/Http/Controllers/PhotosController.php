@@ -63,11 +63,11 @@ class PhotosController extends Controller
 
       $photo = Photo::findOrFail($id);
 //dd($id);
-      if(Storage::delete('storage/photos/'.$photo->album_id.'/'.$photo->photo)){
-
+    
+          Storage::delete('storage/photos/'.$id.'/'.$d->photo);
         $photo->delete();
 
         return redirect('/albums/'.$photo->album_id)->with('success', 'Photo Deleted');
-      }
+     
     }
 }

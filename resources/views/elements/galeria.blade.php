@@ -5,7 +5,6 @@
 			<h2>Galería</h2>
 			<br>
 			<h2 style="font-size: 40px;">Álbumes</h2>
-
 			
 				@if(auth()->check())
 				<div class="container">
@@ -30,7 +29,7 @@
 
         	<div class='col-md-4 text-center img'>
                <a href="/albums/{{$album->id}}">
-                  <img height="300px" class="img-responsive" src="storage/album_covers/{{$album->cover_image}}" alt="{{$album->name}}">
+                  <img height="300px" class="img-responsive" src="/storage/album_covers/{{$album->cover_image}}" alt="{{$album->name}}">
                 </a>
                <br>
                <h4>{{$album->name}}</h4>

@@ -46,7 +46,7 @@ class AlbumsController extends Controller
 
       // Uplaod image
    //   $path = $request->file('cover_image')->storeAs('storage/album_covers', $filenameToStore);
-      $path = Storage::cloud()->put('album_covers', $filenameToStore);
+      $path = Storage::disk('google')->put('album_covers', $filenameToStore);
 
 
     //  dd($path);

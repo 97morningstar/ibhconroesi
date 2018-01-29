@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e524e4ff6cc9771d8f6fc4bd99fa8c18",
+    "content-hash": "9175304b6c8202d2cd1eb9c49ec10564",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1277,6 +1277,54 @@
             "time": "2017-06-30T06:29:25+00:00"
         },
         {
+            "name": "league/flysystem-cached-adapter",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem-cached-adapter.git",
+                "reference": "93eec679c57f8510816577f361988b10b5b57351"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-cached-adapter/zipball/93eec679c57f8510816577f361988b10b5b57351",
+                "reference": "93eec679c57f8510816577f361988b10b5b57351",
+                "shasum": ""
+            },
+            "require": {
+                "league/flysystem": "~1.0",
+                "psr/cache": "^1.0.0"
+            },
+            "require-dev": {
+                "henrikbjorn/phpspec-code-coverage": "~1.0@dev",
+                "mockery/mockery": "~0.9",
+                "phpspec/phpspec": "~2.1",
+                "phpunit/phpunit": "~4.1",
+                "predis/predis": "~1.0",
+                "tedivm/stash": "~0.12"
+            },
+            "suggest": {
+                "ext-phpredis": "Pure C implemented extension for PHP"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\Cached\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "frankdejonge",
+                    "email": "info@frenky.net"
+                }
+            ],
+            "description": "An adapter decorator to enable meta-data caching.",
+            "time": "2017-03-20T09:59:34+00:00"
+        },
+        {
             "name": "league/flysystem-rackspace",
             "version": "1.0.5",
             "source": {
@@ -1526,6 +1574,96 @@
                 "jsonpath"
             ],
             "time": "2016-12-03T22:08:25+00:00"
+        },
+        {
+            "name": "nao-pon/flysystem-cached-extra",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nao-pon/flysystem-cached-extra.git",
+                "reference": "7e5310984a3ec09d743467ed6d83fb63856e7d0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nao-pon/flysystem-cached-extra/zipball/7e5310984a3ec09d743467ed6d83fb63856e7d0b",
+                "reference": "7e5310984a3ec09d743467ed6d83fb63856e7d0b",
+                "shasum": ""
+            },
+            "require": {
+                "league/flysystem-cached-adapter": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hypweb\\Flysystem\\Cached\\Extra\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Naoki Sawada",
+                    "email": "hypweb@gmail.com"
+                }
+            ],
+            "description": "Extra traits for Flysystem cached adapter",
+            "time": "2016-03-21T08:19:52+00:00"
+        },
+        {
+            "name": "nao-pon/flysystem-google-drive",
+            "version": "1.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nao-pon/flysystem-google-drive.git",
+                "reference": "3b38384854be414061224d8e37bec9ae8a967d52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nao-pon/flysystem-google-drive/zipball/3b38384854be414061224d8e37bec9ae8a967d52",
+                "reference": "3b38384854be414061224d8e37bec9ae8a967d52",
+                "shasum": ""
+            },
+            "require": {
+                "google/apiclient": "^2.0",
+                "league/flysystem": "~1.0",
+                "nao-pon/flysystem-cached-extra": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-api_v2": "1.0.x-dev",
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hypweb\\Flysystem\\GoogleDrive\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Naoki Sawada",
+                    "email": "hypweb@gmail.com"
+                }
+            ],
+            "description": "Flysystem adapter for Google Drive",
+            "time": "2017-08-18T08:45:18+00:00"
         },
         {
             "name": "nesbot/carbon",

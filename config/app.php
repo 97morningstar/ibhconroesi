@@ -163,8 +163,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        Illuminate\View\GoogleDriveServiceProvider::class,
-        
+        App\Providers\GoogleDriveServiceProvider::class,
+
 
         /*
          * Package Service Providers...

@@ -45,11 +45,9 @@ class AlbumsController extends Controller
       $filenameToStore = $filename.'_'.time().'.'.$extension;
 
       // Uplaod image
-   //   $path = $request->file('cover_image')->storeAs('storage/album_covers', $filenameToStore);
-      $path = Storage::disk('google')->put('album_covers', $filenameToStore);
-
-
-    //  dd($path);
+  $path = $request->file('cover_image')->storeAs('storage/album_covers/', $filenameToStore, 's3');
+  //$path = Storage::disk('s3')->put($filenameToStore, $request->file('cover_image'), 'public');
+ //   dd();
 //Investigar el path file con laravel 
 
         // Create album
@@ -60,7 +58,12 @@ class AlbumsController extends Controller
 
       $album->save();
 
+     // dd(Storage::url($filenameToStore));
+
       return redirect('/galeria')->with('success', 'Album Created');
+
+
+
     }
 
     public function show($id){
@@ -87,13 +90,16 @@ class AlbumsController extends Controller
            echo '<br>';
         }*/
 
-
+        Storage::disk('s3')->delete('/storage/album_covers/'.$album->cover_image);
   
-      Storage::delete('/storage/album_covers/'.$album->cover_image);
+     // Storage::delete('/storage/album_covers/'.$album->cover_image);
        // dd($album);
       foreach ($album->photos as $d) {
        
-       Storage::delete('/storage/photos/'.$id.'/'.$d->photo);
+     //  Storage::delete('/storage/photos/'.$id.'/'.$d->photo);
+
+        Storage::disk('s3')->delete('/storage/photos/'.$id.'/'.$d->photo);
+
 
         $d->delete();
         }

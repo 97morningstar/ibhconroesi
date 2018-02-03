@@ -29,7 +29,10 @@
 
         	<div class='col-md-4 text-center img'>
                <a href="/albums/{{$album->id}}">
-                  <img height="300px" class="img-responsive" src="{{ Storage::url($album->cover_image) }}" alt="{{$album->name}}">
+              
+             {{-- {{ Storage::disk('google')->get($album->id) }}--}}
+                <img height="300px" class="img-responsive" src="{{ config('image.url.album').$album->cover_image }}" alt="{{$album->name}}">
+              
                 </a>
                <br>
                <h4>{{$album->name}}</h4>

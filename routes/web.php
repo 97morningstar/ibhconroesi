@@ -10,7 +10,14 @@ use App\Mail\DemoMail;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('p', function() {  //download file
+	$my_file = 'file.txt';
+$handle = fopen($my_file, 'w') or die('Cannot open file:  '.$my_file);
+$data = 'Test data to see if this works!';
+fwrite($handle, $data);
 
+$storagePath = Storage::disk('s3')->put("uploads", $my_file, 'public');
+});
 
 Route::get('test', function(){
 	$user = new App\User;

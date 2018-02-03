@@ -33,7 +33,7 @@
         	<div class='col-md-4 text-center img' >
                <a href="/photos/{{$photo->id}}">
                   <img  width="500px" height="500px" class="img-thumbnail" 
-                  src="/storage/photos/{{$photo->album_id}}/{{$photo->photo}}" alt="{{$photo->title}}">
+                  src="{{ config('image.url.photos').$album->id }}/{{ $photo->photo }}" alt="{{$photo->title}}">
                 </a>
                <br>
                <h4>{{$photo->title}}</h4>

@@ -9,7 +9,7 @@
 	<hr>
 
 	<img width="500px"
-	src="/storage/photos/{{$photo->album_id}}/{{$photo->photo}}" alt="{{$photo->title}}">
+	src="{{ config('image.url.photos').$photo->album_id }}/{{ $photo->photo }}" alt="{{$photo->title}}">
 	<hr>
 </div>
 @stop

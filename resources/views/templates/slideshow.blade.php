@@ -28,7 +28,7 @@
 		    	</p>
 		    </div>
 		</div> --}}
-		<div class="container-fluid div_inc" id="particles-js">
+		<div class="container-fluid div_inc">
 			<div class="row text-center" id="titulo">
 				<h1 class="center"><a href="/" class="smooth">Iglesia Bautista <br/>Hispana de Conroe</a></h1>
 
@@ -38,6 +38,6 @@
 					<a href=""><span class="center fa fa-arrow-down arrow"></span></a>
 				</div>
 
-				
+				<div id="particles-js"></div>
 			</div>
 		</div>

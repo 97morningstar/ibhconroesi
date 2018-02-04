@@ -749,6 +749,8 @@ div.map-info{
 	transition-property: color !important;
 	transition-duration: .5s !important;
 	text-decoration: none;
+	position: relative;
+	z-index: 100;
 }
 
 
@@ -960,11 +962,12 @@ a.btn#btn_form:hover{
 
 
 .arrow {
+	position: relative;
 	margin-right: auto;
 	margin-left: auto;
 font-size: 50px;
   color: #fff;
-
+	z-index: 1000 !important;
 }
 
 .bounce{
@@ -1001,12 +1004,26 @@ font-size: 50px;
 div.bounce a, div.bounce a:link, div.bounce a:active{
 	text-decoration: none;
 	color: #fff;
+
+}
+
+div.div_inc{
+	position: relative;
+	z-index: 100;
 }
 
 canvas.particles-js-canvas-el{
-	    top: 0px;
-    position: absolute;
+	   top: 0px;
+	    left: 0px;
+    position: relative;
+
+     z-index: 1;
 }
 div#particles-js{
-	    position: relative;
+	       width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }

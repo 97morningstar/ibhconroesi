@@ -96,13 +96,13 @@ particlesJS('particles-js',
       },
       "modes": {
         "grab": {
-          "distance": 10,
+          "distance": 100,
           "line_linked": {
             "opacity": 1
           }
         },
         "bubble": {
-          "distance": 10,
+          "distance": 100,
           "size": 40,
           "duration": 2,
           "opacity": 8,

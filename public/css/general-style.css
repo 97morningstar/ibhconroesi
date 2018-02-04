@@ -1002,3 +1002,11 @@ div.bounce a, div.bounce a:link, div.bounce a:active{
 	text-decoration: none;
 	color: #fff;
 }
+
+canvas.particles-js-canvas-el{
+	    top: 0px;
+    position: absolute;
+}
+div#particles-js{
+	    position: relative;
+}

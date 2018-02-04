@@ -140,6 +140,8 @@
 		<script type='text/javascript' src='/api/lib/gcal.js'></script>
 
 		<script type="text/javascript" src="/js/custom.js"></script>
+		<script type="text/javascript" src="/js/particles.js"></script>
+		<script type="text/javascript" src="/js/partApp.js"></script>
 <!-- FIN Js files -->
 
 </body>

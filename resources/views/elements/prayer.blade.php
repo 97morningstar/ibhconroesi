@@ -4,22 +4,8 @@
 @section('content')
 <div class="container">
 <div class="row">
-			<h2 id="cont">Contactos</h2>
-			<p class="text-center lead">Estamos para servirte <br>No dudes en contactarnos</p>
-			<p class="text-center ">
-				<strong>Pastor:</strong> Isaias Martinez.
-				(281) 854-7133
-				isaiasmj1966@gmail.com
-			</p>
-			<p class="text-center ">
-				<strong>Secretaria:</strong> Elisa Martinez. 
-				(281) 854-7796
-				97morningstar@gmail.com
-			</p>
-			<p class="text-center ">
-				<strong>Correo de la Iglesia: ibhconroe@gmail.com</strong>
-			</p>
-			<br>
+			<h2 id="cont">Pedir oración</h2>
+			<p class="text-center lead"><i>"Otra vez os digo, que si dos de vosotros se pusieren de acuerdo en la tierra acerca de cualquiera cosa que pidieren, les será hecho por mi Padre que está en los cielos."<br> Mateo 18:19</i></p>
 			<hr>
 
 			<form method='POST' action="{{ route('contacto.store') }}">
@@ -50,7 +36,7 @@
 		<br>
 		<br>
 
-		<label for="mensaje">¿Cómo podemos ayudarte? Escríbenos un mensaje</label>
+		<label for="mensaje">¿Por qué petición deseas que oremos? Escríbenos</label>
 		<textarea class="form-control" name="mensaje" id="mensaje">{{ old('mensaje') }}</textarea>
 		{!! $errors->first('mensaje', '<span class="error">:message</span>') !!}
 

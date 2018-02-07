@@ -33,6 +33,6 @@ public $contact;
      */
     public function build()
     {
-        return $this->from('example@example.com')->view('emails.demo');
+        return $this->from('contacto@ibhconroe.org')->view('emails.demo');
     }
 }

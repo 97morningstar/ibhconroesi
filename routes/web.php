@@ -57,9 +57,13 @@ Route::get('/email', function(){
 	Mail::to('97morningstar@gmail.com')->send(new DemoMail);
 });
 
+//prayer request
 Route::get('/oracion', ['as' => 'oracion', 'uses' => 'PrayerController@index']);
+Route::post('/oracion/store', ['as' => 'oracion.store', 'uses' => 'PrayerController@store']);
 
-Route::post('contactos/store', ['as' => 'contacto.store', 'uses' => 'ContactController@store']);
+//end prayer request
+
+Route::post('/contactos/store', ['as' => 'contacto.store', 'uses' => 'ContactController@store']);
 
 Route::get('/login', ['as' => 'login', 'uses' => 'Auth\LoginController@showLoginForm']);
 

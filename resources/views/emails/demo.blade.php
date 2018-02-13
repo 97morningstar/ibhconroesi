@@ -7,6 +7,8 @@
 <body>
 <h2>El correo enviado fue</h2>
 <br/>
+<h3>Pedir informacion contactos</h3>
+
 <h3>Nombre</h3>
 {{ $contact->nombre }}
 <h3>Telefono</h3>

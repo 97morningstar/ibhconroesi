@@ -18,7 +18,7 @@
 						</li>
 					</ul>
 				</div>
-				<p class="design">Design by Elisa Martinez</p>
+				<p class="design">Made with <span class="error">&lt;3</span> by Elisa Martinez</p>
 			</div>
 			<div class="footer-navs col-sm-12 col-md-7">
 				<div class="col-xs-12 col-sm-3 col-md-3">
@@ -54,7 +54,7 @@
 				<div class="col-xs-6 col-sm-3 col-md-3">
 					<h6>Contáctanos</h6>
 					<ul>
-						<li><a href="/contactos"><span class="fas fa-hand-paper"> </span> Pedir Oración</a></li>
+						<li><a href="/oracion"><span class="fas fa-hand-paper"> </span> Pedir Oración</a></li>
 						<li><a href="/contactos"><span class="fas fa-pencil-alt"> </span> Escríbenos</a></li>
 					</ul>
 				</div>

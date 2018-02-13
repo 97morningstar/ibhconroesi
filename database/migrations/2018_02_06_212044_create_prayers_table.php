@@ -14,7 +14,12 @@ class CreatePrayersTable extends Migration
     public function up()
     {
         Schema::create('prayers', function (Blueprint $table) {
-            $table->increments('id');
+              $table->increments('id');
+            $table->string('nombre');
+            $table->string('telefono');
+            $table->string('email');
+            $table->string('direccion');
+            $table->text('mensaje');
             $table->timestamps();
         });
     }

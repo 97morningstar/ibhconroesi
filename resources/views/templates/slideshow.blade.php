@@ -38,6 +38,6 @@
 					<a href=""><span class="center fa fa-arrow-down arrow"></span></a>
 				</div>
 
-				<div id="particles-js"></div>
+			
 			</div>
 		</div>

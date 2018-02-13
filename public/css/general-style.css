@@ -751,6 +751,7 @@ div.map-info{
 	text-decoration: none;
 	position: relative;
 	z-index: 100;
+	font-size: 5vw;
 }
 
 
@@ -945,12 +946,11 @@ span#calendarTitle{
  	margin-right: auto;
  	font-size: 40px;
 padding: 0px 20px;
- 	background: #8B008B;
+ 	background: #fff;
     font-weight: 700;
     border-radius: 300px;
     font-family: 'Tangerine', cursive;
-    color: #fff;
-    border: 5px solid #610361;
+    color: #000;
 }
 
 a.btn#btn_form:hover{
@@ -1007,7 +1007,7 @@ div.bounce a, div.bounce a:link, div.bounce a:active{
 
 }
 
-div.div_inc{
+div.div_form{
 	position: relative;
 	z-index: 100;
 }
@@ -1026,4 +1026,25 @@ div#particles-js{
     top: 0;
     left: 0;
     z-index: 1;
+}
+
+a.btn_escribenos{
+	position: relative;
+	z-index: 100;
+}
+
+div.contact100-form-title, div.contact100-form-title p{
+	color: #fff;
+}
+
+.error{
+	color: red;
+}
+
+.img-service{
+	width: 150px;
+}
+
+div.img-service-container{
+	position: relative;
 }

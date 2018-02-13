@@ -392,12 +392,12 @@ textarea.input100 {
 
 /*------------------------------------------------------------------
 [ Responsive ]*/
-
+/*
 @media (max-width: 576px) {
   .contact100-form {
     padding: 43px 15px 57px 117px;
   }
-}
+}*/
 
 @media (max-width: 480px) {
   .contact100-form {

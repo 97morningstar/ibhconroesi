@@ -668,6 +668,10 @@ div.map-info{
 	background: url('../images/Fotos/Galeria/IMG_20170917_150531_243 - phone.jpg');
 }
 
+.imgg{
+	padding-bottom: 20px;
+}
+
 }
 
 
@@ -704,6 +708,9 @@ div.map-info{
 	height: 400px;
 	background: url('../images/Fotos/Galeria/IMG_20170917_150531_243 - phone.jpg');
 }
+.imgg{
+	padding-bottom: 20px;
+}
 
 }
 
@@ -739,6 +746,11 @@ div.map-info{
 	height: 400px;
 	background: url('../images/Fotos/Galeria/IMG_20170917_150531_243 - phone.jpg');
 }
+
+.imgg{
+	padding-bottom: 20px;
+}
+
 }
 
 

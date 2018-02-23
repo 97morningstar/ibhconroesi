@@ -106,7 +106,7 @@
                    	  	 @endif
 	                        Contactos
 	                    </a></li>
-	                    <li class="hidden-sm hidden-xm">
+	                    <li class="hidden-sm hidden-xm hidden-lg hidden-md">
 	                    	<a style="font-size: 40px" href="https://www.facebook.com/ibhconroe/" target="_blank"><span class="fab fa-facebook-square"> </span></a>
 							<a style="font-size: 40px" href="https://twitter.com/ibhconroe" target="_blank"><span class="fab fa-twitter-square"> </span></a>
 							<a style="font-size: 40px" href="mailto:ibhconroe@gmail.com" target="_blank"><span class="far fa-envelope"> </span></a>

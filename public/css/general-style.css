@@ -1050,3 +1050,7 @@ div.contact100-form-title, div.contact100-form-title p{
 div.img-service-container{
 	position: relative;
 }
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 940px;
+}

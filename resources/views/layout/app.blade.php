@@ -25,8 +25,9 @@
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 			<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 		<!-- Fin de Boostrap -->
-			 <link rel="stylesheet" href="/css/slider.css" />
-			 <link rel="stylesheet" href="/css/general-style.css" />
+		
+<link rel="stylesheet" href="/css/general-style.css" />
+			
 			<!-- fin css -->
 			<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
@@ -38,13 +39,15 @@
 
 
 				<link rel="stylesheet" type="text/css" href="css/animate/animate.css">
-
+ 			
 	<!-- fullCalendar -->
-		<link rel='stylesheet' href='/api/fullcalendar/fullcalendar.css' />
-		<link rel="stylesheet" type="text/css" href="css/util.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel='stylesheet' href='/api/fullcalendar/fullcalendar.css'/>
+		<link rel="stylesheet" type="text/css" href="/css/util.css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.7.0/css/
+	font-awesome.min.css">
 	<!--  Fin de fullCalendar -->
+		<link rel="stylesheet" type="text/css" href="/css/slider.css">
 	<!-- fin links -->
 </head>
 <body id="top">
@@ -103,7 +106,13 @@
                    	  	 @endif
 	                        Contactos
 	                    </a></li>
+	                    <li class="hidden-sm hidden-xm">
+	                    	<a style="font-size: 40px" href="https://www.facebook.com/ibhconroe/" target="_blank"><span class="fab fa-facebook-square"> </span></a>
+							<a style="font-size: 40px" href="https://twitter.com/ibhconroe" target="_blank"><span class="fab fa-twitter-square"> </span></a>
+							<a style="font-size: 40px" href="mailto:ibhconroe@gmail.com" target="_blank"><span class="far fa-envelope"> </span></a>
+	                    </li>
                   </ul>
+
               </div>
           </div>
         </nav>
@@ -143,6 +152,7 @@
 		<script type="text/javascript" src="/js/custom.js"></script>
 		<script type="text/javascript" src="/js/particles.js"></script>
 		<script type="text/javascript" src="/js/partApp.js"></script>
+		<script type="text/javascript" src="/js/slider.min.js"></script>
 <!-- FIN Js files -->
 
 </body>

@@ -1,6 +1,7 @@
 
 *{
 	box-sizing: border-box;
+
 }
 
 /*** fuentes  ***/
@@ -37,6 +38,7 @@ nav.navbar.navbar-default.center.stroke.white{
 	letter-spacing: 1px;
 	 transition: all 0.4s;
 padding-top: 20px;
+font-size: 14px;
 }
 .navbar-nav>li>a.orange{
 	color: #8B008B;
@@ -72,9 +74,17 @@ nav.navbar.center .navbar-inner .nav {
 
 
 div.encabezado-frase{
-	margin-top: 10px;
-	font-size: 15px;
+	margin-top: 5px;
+	font-size: 30px;
 }
+
+div.encabezado-frase path{
+	color: #fff !important;
+}
+div.encabezado-frase a:hover{
+	color: #000;
+}
+
 
 div.encabezado-info-text p{
 	margin-bottom: 0px;
@@ -121,26 +131,7 @@ a.addresss:hover, a.addresss:active, a.addresss:link{
 }
 
 	/*** slider ***/
-div.slide-show{
-	position: relative;
-}
 
-.slide-buttons{
-	position: absolute;
-	right: 160px;
-	bottom: 160px;
-}
-
-div.slide-info{
-	position: absolute;
-	background: rgba(139, 0, 139, 0.42);
-	bottom: 30px;
-	color: #fff;
-	height: 100px;
-	padding: 30px;
-	width: 100%;
-
-}
 
 h1{
 	font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -346,7 +337,7 @@ iframe#map{
 
 	h1{
 		
-		font-size: 8vw; 
+		font-size: 7vw; 
 		text-align: center;
 		margin-bottom: 30px;
 		margin-top: 30px;
@@ -636,7 +627,7 @@ div.div_inc{
 
 @media  (min-width: 520px) and (max-width: 767px){
 	h1 {
-		font-size: 9vw;
+		font-size: 8vw;
 		text-align: center;
 		margin-bottom: 20px;
 		margin-top: 30px;
@@ -679,7 +670,7 @@ div.map-info{
 
 @media  (min-width: 318px) and (max-width: 519px) {
 	h1 {
-		font-size: 12vw;
+		font-size: 6vw;
 		text-align: center;
 		margin-bottom: 20px;
 		margin-top: 20px;
@@ -719,7 +710,7 @@ div.map-info{
 
 
 	h1 {
-		font-size: 12vw;
+		font-size: 8vw;
 		text-align: center;
 		margin-bottom: 20px;
 		margin-top: 20px;
@@ -763,7 +754,6 @@ div.map-info{
 	text-decoration: none;
 	position: relative;
 	z-index: 100;
-	font-size: 5vw;
 }
 
 

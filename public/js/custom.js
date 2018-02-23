@@ -97,5 +97,14 @@ $(function() {
 });
 
 
+    $(function(){
+        $('#slider').rbtSlider({
+            height: '400px', 
+            'dots': true,
+            'arrows': true,
+            'auto': 3
+        });
+    });
+
 
 

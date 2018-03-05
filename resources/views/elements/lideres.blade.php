@@ -14,7 +14,7 @@
 		<li>Educación Cristiana y Eventos: Nuria Fuentes.</li> 
 		<li>Adoración: Elisa Martinez.</li> 
 		<li>Administración: Leonel Valdez.</li> 
-		<li>Evangelismo: Lucia Ordoñes.</li> 
+		<li>Evangelismo:</li> 
 		<li>Celebraciones:</li> 
 		<li>Diácono:</li> 
 		<li>Guía de células:</li> 

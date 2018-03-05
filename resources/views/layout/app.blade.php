@@ -36,6 +36,8 @@
 			<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Padauk" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
 
 
 				<link rel="stylesheet" type="text/css" href="css/animate/animate.css">
@@ -47,6 +49,11 @@
 		<link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.7.0/css/
 	font-awesome.min.css">
 	<!--  Fin de fullCalendar -->
+	<!-- Jquery gallery plugin -->
+		<link rel="stylesheet" href="/css/lc_lightbox.css" />
+
+
+	<!-- fin de jquery gallery plugin -->
 		<link rel="stylesheet" type="text/css" href="/css/slider.css">
 	<!-- fin links -->
 </head>
@@ -144,7 +151,8 @@
 
 
 
-		
+		<script src="/js/lc_lightbox.lite.js" type="text/javascript"></script>
+
 		<script src='/api/lib/moment.min.js'></script>
 		<script src='/api/fullcalendar/fullcalendar.js'></script>
 		<script type='text/javascript' src='/api/lib/gcal.js'></script>
@@ -153,6 +161,7 @@
 		<script type="text/javascript" src="/js/particles.js"></script>
 		<script type="text/javascript" src="/js/partApp.js"></script>
 		<script type="text/javascript" src="/js/slider.min.js"></script>
+		
 <!-- FIN Js files -->
 
 </body>

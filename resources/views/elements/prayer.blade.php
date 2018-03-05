@@ -49,7 +49,7 @@
 
 
 <div class="wrap-contact100">
-			<div class="contact100-form-title" style="background-image: url(images/holding-hands-752878_1280.jpg);">
+			<div class="contact100-form-title" >
 				<h2 id="cont">Pedir oración</h2>
 			<p class="text-center lead"><i>"Otra vez os digo, que si dos de vosotros se pusieren de acuerdo en la tierra acerca de cualquiera cosa que pidieren, les será hecho por mi Padre que está en los cielos."<br> Mateo 18:19</i></p>
 	

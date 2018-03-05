@@ -52,7 +52,7 @@
 
 
 <div class="wrap-contact100">
-			<div class="contact100-form-title" style="background-image: url(images/pexels-photo-461077.jpeg);">
+			<div class="contact100-form-title" >
 				<h2 id="cont">Contactos</h2>
 			<p class="text-center lead">Estamos para servirte <br>No dudes en contactarnos</p>
 			<p class="text-center ">

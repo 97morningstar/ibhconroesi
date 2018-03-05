@@ -10,7 +10,7 @@
 
 	<div class="col-md-9">
 		<div id="section1"></div>
-		<hr>
+	
 		<br>
 		<br>
 		<div class="color_entero_1 text-center" >

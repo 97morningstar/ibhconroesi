@@ -20,28 +20,32 @@ nav.fixed{
 }
 
 nav.navbar.navbar-default.center.stroke{
-	background: #8B008B !important;
-	border-color: #8B008B;
-	font-family: 'Padauk', cursive;
+	background: #333 !important;
+	border-color: #333;
+	font-family: 'Oswald', cursive;
 	font-size: 20px;
 	 transition: all 0.4s;
+
 }
 nav.navbar.navbar-default.center.stroke.white{
-	background: #fff !important;
-	border-color: #dccfcd;
+	background: #333 !important;
+	border-color: #333;
 }
 
 .navbar-default .navbar-nav>li>a{
-	color: #fff;
+	color: #DDD;
 	font-weight: bolder;
 	text-decoration: none;
 	letter-spacing: 1px;
 	 transition: all 0.4s;
-padding-top: 20px;
-font-size: 14px;
+padding-top: 15px;
+font-size: 20px;
+	font-family: 'Oswald', cursive;
+
+
 }
 .navbar-nav>li>a.orange{
-	color: #8B008B;
+	color: #DDD;
 }
 
 
@@ -89,14 +93,15 @@ div.encabezado-frase a:hover{
 div.encabezado-info-text p{
 	margin-bottom: 0px;
 	margin-right: 10px;
-	margin-top: 10px;
+	margin-top: 15px;
+	color: #fff;
 }
 
 div.encabezado-button button{
-	margin-top: 5px;
-	margin-bottom: 5px;
-	background: #0d66b2;
-	border-color: #0d66b2;
+	margin-top: 10px;
+	margin-bottom: 5px ;
+	background: #8B008B;
+	border-color: #8B008B;
 	font-size: 12px;
 	padding: 5px 10px;
 		border-radius: 300px;
@@ -400,6 +405,7 @@ div#map_infoo{
 	  color: transparent;
 	  background: #000;
 	  height: 2px;
+	      top: 60px;
 	}
 	nav.stroke ul li a:hover:after {
 	  width: 100%;
@@ -419,7 +425,7 @@ div#map_infoo{
 	}
 
 	nav.navbar.navbar-default.center.stroke.white{
-		height: 80px;
+		height: 65px;
 	}
 	.navbar-nav>li>a.orange{
 		padding-top: 30px;
@@ -510,6 +516,7 @@ div#map_infoo{
 	  color: transparent;
 	  background: #000;
 	  height: 2px;
+	  top: 60px;
 	}
 	nav.stroke ul li a:hover:after {
 	  width: 100%;
@@ -530,7 +537,7 @@ iframe#map{
 	}
 
 	nav.navbar.navbar-default.center.stroke.white{
-		height: 80px;
+		height: 64px;
 	}
 	.navbar-nav>li>a.orange{
 		padding-top: 30px;
@@ -589,6 +596,7 @@ iframe#map{
 	  color: transparent;
 	  background: #000;
 	  height: 2px;
+	  top: 60px;
 	}
 	nav.stroke ul li a:hover:after {
 	  width: 100%;
@@ -937,7 +945,7 @@ span#calendarTitle{
  }
 
  div#form_contact{
- 	background: #8B008B;
+ 	background: #333;
  	padding: 30px;
  }
 
@@ -1036,7 +1044,7 @@ a.btn_escribenos{
 }
 
 div.contact100-form-title, div.contact100-form-title p{
-	color: #fff;
+	color: #000;
 }
 
 .error{
@@ -1053,4 +1061,27 @@ div.img-service-container{
 
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 940px;
+}
+
+div.container-fluid.navbar-inner{
+	height: 54px !important;
+}
+
+div#slider.slider{
+	z-index: -1;
+}
+
+div#navbar-1{
+
+	border: none;
+
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+	    margin-right: -16px;
+    margin-left: -16px;
+}
+
+.img-album{
+	padding: 20px;
+	background: #fff;
 }

@@ -106,7 +106,7 @@ $(function() {
         });
     });
 
-
+var p;
 $(document).ready(function(e) {
    
     // live handler
@@ -119,7 +119,37 @@ $(document).ready(function(e) {
         radius: 0,
         padding : 0,
         border_w: 0,
+        fullscreen    : true,
+         socials     : true,
     }); 
 
+
+
+    $('.alb').click(function(event){
+
+      
+
+            var $id = $(this).attr("id");
+       p=$id;
+            var $a = $('a.pho');
+
+
+
+            for(var i = 0; i < $a.length; i++){
+                if($a[i].getAttribute('album')===$id){
+                    $a[i].setAttribute('class', 'pho elem');
+             }
+          }
+    });
+
+    function changeClass(){
+        
+    }
+
+
+
+
+
 });
+
 

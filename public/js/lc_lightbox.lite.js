@@ -116,7 +116,8 @@
 			title_attr		: 'title', // attribute containing the title - is possible to specify a selector with this syntax: "> .selector" or "> span" 
 			txt_attr		: 'data-lcl-txt', // attribute containing the description - is possible to specify a selector with this syntax: "> .selector" or "> span" 
 			author_attr		: 'data-lcl-author', // attribute containing the author - is possible to specify a selector with this syntax: "> .selector" or "> span" 
-			
+			class_attr      :  'class',
+
 			slideshow		: true, // whether to enable slideshow
 			open_close_time	: 400, // animation duration for lightbox opening and closing / 1000 = 1sec
 			ol_time_diff	: 100, // overlay's animation advance (on opening) and delay (on close) to window / 1000 = sec
@@ -1569,6 +1570,18 @@
 		
 		/* close lightbox */
 		var close_lb = function() {
+
+			console.log('close');
+            var $a = $('a.pho');
+
+            for(var i = 0; i < $a.length; i++){
+                if($a[i].getAttribute('album')===p){
+                    $a[i].setAttribute('class', 'pho');
+             }
+          }
+
+
+
 			if(!lcl_shown) {return false;}
 			
 			// lightbox is about to be closed - callback
@@ -1828,11 +1841,12 @@
 						bg_img = '';
 						tpc = ''; // thumbs preload class
 					
-					
+						
 					// has got a specific thumbnail?
 					if(v.thumb) {
 						bg_img = v.thumb;
 						bg = 'style="background-image: url(\''+ v.thumb +'\');"';
+
 					}
 					else {
 					
@@ -1882,7 +1896,10 @@
 								 bg_img = base.replace('%URL%', encodeURIComponent(bg_img)).replace('%W%', lcl_ai_opts.thumbs_w).replace('%H%', lcl_ai_opts.thumbs_h);
 							}
 							
+
+
 							bg = 'style="background-image: url(\''+ bg_img +'\');"';
+
 							
 							
 							// if is video - store as vid_poster
@@ -2163,6 +2180,7 @@
 		
 		/* close clicking overlay or button */
 		$(document).on('click', '#lcl_overlay:not(.lcl_modal), .lcl_close, #lcl_corner_close', function(e) {
+			
 			if(obj != lcl_curr_obj) {return true;}	
 			close_lb();
 		});	

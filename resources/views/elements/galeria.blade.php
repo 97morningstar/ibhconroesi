@@ -11,6 +11,8 @@
 }
 </style>
 
+
+
 @extends('layout.app')
 
 
@@ -43,10 +45,11 @@
         	<div class='col-md-4 text-center img'>
                <a 
                href="{{ config('image.url.album').$album->cover_image }}" 
-                class="elem" 
+                class="elem alb" 
                 title="{{ $album->name  }}" 
                 data-lcl-txt="{{ $album->description }}" 
-                data-lcl-thumb="{{ config('image.url.album').$album->cover_image }}" >
+               
+                id="{{ $album->id }}">
               
 
              {{-- {{ Storage::disk('google')->get($album->id) 
@@ -56,14 +59,22 @@
                 <img height="300px" class="img-responsive img-album" src="{{ config('image.url.album').$album->cover_image }}" alt="{{$album->name}}">
                 </a>
 
-                @foreach($album->photos as $photo)
-                <a  
-                href="{{ config('image.url.photos').$album->id}}/{{ $photo->photo }}"  class="elem" 
+
+                
+
+
+             @foreach($album->photos as $photo)   
+                 <a  
+                href="{{ config('image.url.photos').$album->id}}/{{ $photo->photo }}"  class="pho" 
                 src="{{ config('image.url.photos').$album->id }}/{{ $photo->photo }}"
                 title="{{ $photo->title  }}" 
-                data-lcl-txt="{{ $photo->description }}" > 
-                      </a>
-                @endforeach
+                data-lcl-txt="{{ $photo->description }}"
+                album="{{ $album->id }}"> 
+                </a>
+             
+              @endforeach
+             
+              
 
                <br>
                <h4>{{$album->name}}</h4>

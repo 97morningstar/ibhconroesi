@@ -152,6 +152,8 @@
 
 
 		<script src="/js/lc_lightbox.lite.js" type="text/javascript"></script>
+		<script src="lib/AlloyFinger/alloy_finger.min.js" type="text/javascript"></script>
+
 
 		<script src='/api/lib/moment.min.js'></script>
 		<script src='/api/fullcalendar/fullcalendar.js'></script>

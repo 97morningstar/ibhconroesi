@@ -91,7 +91,7 @@ $(function() {
     $(".arrow").click(function() {
         return $("#top, html").animate({
             scrollTop: 370
-        }, 800),
+        }, 900),
         !1
     })
 });

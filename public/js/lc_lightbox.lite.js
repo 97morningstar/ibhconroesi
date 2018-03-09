@@ -153,6 +153,7 @@
 			show_title		: true, // bool / whether to display titles
 			show_descr		: true, // bool / whether to display descriptions
 			show_author		: true, // bool / whether to display authors
+			show_class      : true,
 			
 			thumbs_nav		: true, // enables thumbnails navigation (requires elements poster or images)
 			tn_icons		: true, // print type icons on thumbs if types are mixed
@@ -316,6 +317,7 @@
 							title 	: (o.show_title) 	? attr_or_selector_data($e, 'title_attr') : '',	
 							txt 	: (o.show_descr) 	? attr_or_selector_data($e, 'txt_attr') : '',	
 							author 	: (o.show_author) 	? attr_or_selector_data($e, 'author_attr') : '',	
+							class   : (o.show_class)    ? attr_or_selector_data($e, 'class_attr')  : '',
 							thumb	: (o.thumb_attr && typeof(o.thumb_attr) != 'undefined')	? $e.attr(o.thumb_attr) : '',	
 							
 							width	: (type != 'image' && typeof($e.data('lcl-w')) != 'undefined') ? $e.data('lcl-w') : false,
@@ -1840,6 +1842,8 @@
 					var bg = '',
 						bg_img = '';
 						tpc = ''; // thumbs preload class
+
+
 					
 						
 					// has got a specific thumbnail?
@@ -1921,8 +1925,15 @@
 					tpc = 'lcl_tn_preload';
 					
 					// append
+					var str = v.class;
+					if(str.search('alb')===-1){
+						console.log(v.title);
 					$('.lcl_tn_inner').append('<li class="lcl_tn_'+ v.type +' '+ tpc +'" title="'+ v.title +'" rel="'+i+'" '+ bg +'>'+ vp +'</li>');	
+
+					}
+
 					
+
 					// thumbs image preload
 					if(tpc) {
 						thumbs_nav_img_preload(bg_img, i, uniq_id);

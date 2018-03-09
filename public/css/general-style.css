@@ -50,7 +50,7 @@ font-size: 20px;
 
 
 .navbar-default .navbar-nav>li>a:hover{
-	color: #000;
+	color: #fff;
 }
 
 .navbar-default .navbar-nav>li{
@@ -86,7 +86,7 @@ div.encabezado-frase path{
 	color: #fff !important;
 }
 div.encabezado-frase a:hover{
-	color: #000;
+	color: #fff;
 }
 
 
@@ -382,12 +382,12 @@ div#map_infoo{
 		transition: all .3s;
 	}
 	nav ul li a:hover {
-	  color: #000 !important;
+	  color: #fff !important;
 
 	}
 
 	a.active{
-		color: #000 !important;
+		color: #fff !important;
 	}
 
 	nav.stroke ul li a{
@@ -395,6 +395,7 @@ div#map_infoo{
 	}
 
 	nav.stroke ul li a:after{
+		    z-index: 11;
 	  position: absolute;
 	  bottom: 0;
 	  left: 0;
@@ -403,7 +404,7 @@ div#map_infoo{
 	  width: 0%;
 	  content: '.';
 	  color: transparent;
-	  background: #000;
+	  background: #fff;
 	  height: 2px;
 	      top: 60px;
 	}
@@ -493,12 +494,12 @@ div#map_infoo{
 		transition: all .3s;
 	}
 	nav ul li a:hover {
-	  color: #000 !important;
+	  color: #fff !important;
 
 	}
 
 	a.active{
-		color: #000 !important;
+		color: #fff !important;
 	}
 
 	nav.stroke ul li a{
@@ -506,6 +507,7 @@ div#map_infoo{
 	}
 
 	nav.stroke ul li a:after{
+		z-index: 11;
 	  position: absolute;
 	  bottom: 0;
 	  left: 0;
@@ -514,7 +516,7 @@ div#map_infoo{
 	  width: 0%;
 	  content: '.';
 	  color: transparent;
-	  background: #000;
+	  background: #fff;
 	  height: 2px;
 	  top: 60px;
 	}
@@ -573,12 +575,12 @@ iframe#map{
 		transition: all .3s;
 	}
 	nav ul li a:hover {
-	  color: #000 !important;
+	  color: #fff !important;
 
 	}
 
 	a.active{
-		color: #000 !important;
+		color: #fff !important;
 	}
 
 	nav.stroke ul li a{
@@ -586,6 +588,7 @@ iframe#map{
 	}
 
 	nav.stroke ul li a:after{
+		z-index: 11;
 	  position: absolute;
 	  bottom: 0;
 	  left: 0;
@@ -594,7 +597,7 @@ iframe#map{
 	  width: 0%;
 	  content: '.';
 	  color: transparent;
-	  background: #000;
+	  background: #fff;
 	  height: 2px;
 	  top: 60px;
 	}
@@ -1068,7 +1071,7 @@ div.container-fluid.navbar-inner{
 }
 
 div#slider.slider{
-	z-index: -1;
+	z-index: 10;
 }
 
 div#navbar-1{

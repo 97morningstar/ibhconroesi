@@ -348,7 +348,7 @@
 			
 			// if only one element - remove nav arrows and thumbs nav 
 			if(new_elems.length < 2) {
-				$('.lcl_prev, .lcl_next, #lcl_thumb_nav').remove();	
+				$('.lcl_prev, .lcl_next').remove();	
 			}
 			
 			if(!new_elems.length) {
@@ -1943,7 +1943,7 @@
 			
 			
 			// be sure at least 2 elements are left
-			if($('.lcl_tn_inner > li').length < 2) {
+			if($('.lcl_tn_inner > li').length < 1) {
 				$('#lcl_thumbs_nav').remove();
 				return false;
 			}

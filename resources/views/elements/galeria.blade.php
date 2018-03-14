@@ -18,8 +18,8 @@
 
 @section('content')
 			<h2>Galería</h2>
-			<br>
-			<h2 style="font-size: 40px;">Álbumes</h2>
+	
+			<h2 style="font-size: 20px;">Álbumes</h2>
 			
 				@if(auth()->check())
 				<div class="container">

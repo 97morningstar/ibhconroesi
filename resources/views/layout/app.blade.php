@@ -56,15 +56,17 @@
 	<!-- fin de jquery gallery plugin -->
 		<link rel="stylesheet" type="text/css" href="/css/slider.css">
 	<!-- fin links -->
+		<link rel="stylesheet" href="/css/style.css" />
+
 </head>
 <body id="top">
 <?php function activeMenu($url){
-    return request()->is($url) ? 'active' : '';
+    return request()->is($url) ? 'current-menu-item' : '';
   }?>
 		@include('templates.top')
 
-	<header>
-		   <nav class="navbar navbar-default  center  stroke">
+	<header class="site-header">
+		{{--   <nav class="navbar navbar-default  center  stroke">
           <div class="container-fluid navbar-inner">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
@@ -122,7 +124,71 @@
 
               </div>
           </div>
-        </nav>
+        </nav> --}}
+
+
+        		<div class="container">
+					<a href="#" class="branding">
+						
+						
+						<h1 class="site-title"><a href="/" class="smooth">Iglesia Bautista <br/>Hispana de Conroe</a></h1>
+					</a>
+
+					<div class="main-navigation center">
+						<button class="menu-toggle"><i class="fa fa-bars"></i> Menu</button>
+						 <ul class="menu text-center">
+                   	  <li class="menu-item {{ activeMenu('/') }}"><a href="/">
+                   	  	 @if(auth()->check())
+                   	  	 	Editar
+                   	  	 @endif
+                   	 		 Menú
+                   	 		 <small>Lorem ipsum</small>
+                   		</a></li>
+	                  <li class="menu-item {{ activeMenu('servicios') }}"><a href="/servicios">
+	                  	 @if(auth()->check())
+                   	  	 	Editar
+                   	  	 @endif
+	                    	Servicios
+	                    	<small>Lorem ipsum</small>
+	                  </a></li>
+	                  <li class="menu-item {{ activeMenu('eventos') }}"><a href="/eventos">
+	                  	 @if(auth()->check())
+                   	  	 	Editar
+                   	  	 @endif
+	                        Eventos
+	                        <small>Lorem ipsum</small>
+	                    </a></li>
+	                  <li class="menu-item {{ activeMenu('quienessomos') }}"><a href="/quienessomos">
+	                  	 @if(auth()->check())
+                   	  	 	Editar
+                   	  	 @endif
+	                  		Quienes Somos
+	                  		<small>Lorem ipsum</small>
+	                  	</a></li>
+	                  <li class="menu-item {{ activeMenu('galeria') }}"><a href="/galeria">
+	                  	 @if(auth()->check())
+                   	  	 	Editar
+                   	  	 @endif
+	                  		Galería
+	                  		<small>Lorem ipsum</small>
+	                  	</a></li>
+	                  <li class="menu-item {{ activeMenu('contactos') }}"><a href="/contactos">
+	                  	 @if(auth()->check())
+                   	  	 	Editar
+                   	  	 @endif
+	                        Contactos
+	                        <small>Lorem ipsum</small>
+	                    </a></li>
+	                    <li class="menu-item hidden-sm hidden-xm hidden-lg hidden-md">
+	                    	<a style="font-size: 40px" href="https://www.facebook.com/ibhconroe/" target="_blank"><span class="fab fa-facebook-square"> </span></a>
+							<a style="font-size: 40px" href="https://twitter.com/ibhconroe" target="_blank"><span class="fab fa-twitter-square"> </span></a>
+							<a style="font-size: 40px" href="mailto:ibhconroe@gmail.com" target="_blank"><span class="far fa-envelope"> </span></a>
+	                    </li>
+                  </ul>
+					</div>
+
+					<div class="mobile-navigation"></div>
+				</div>
 
 
 	</header>
@@ -163,6 +229,7 @@
 		<script type="text/javascript" src="/js/particles.js"></script>
 		<script type="text/javascript" src="/js/partApp.js"></script>
 		<script type="text/javascript" src="/js/slider.min.js"></script>
+		<script type="text/javascript" src="/js/app-min.js"></script>
 		
 <!-- FIN Js files -->
 

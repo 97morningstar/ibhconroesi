@@ -60,8 +60,8 @@ font-size: 20px;
 div.container-fluid.encabezado{
 	font-family: 'Padauk', cursive;
 
-	background:#000;
-	color: #fff;
+	background:#fff;
+	color: #333;
 }
 
 
@@ -83,10 +83,16 @@ div.encabezado-frase{
 }
 
 div.encabezado-frase path{
-	color: #fff !important;
+	color: #333 !important;
 }
 div.encabezado-frase a:hover{
-	color: #fff;
+	color: #333;
+}
+
+li.menu-item a:hover, li.menu-item a:focus{
+	color: #8B008B;
+	list-style: none;
+	text-decoration: none;
 }
 
 
@@ -94,7 +100,7 @@ div.encabezado-info-text p{
 	margin-bottom: 0px;
 	margin-right: 10px;
 	margin-top: 15px;
-	color: #fff;
+	color: #333;
 }
 
 div.encabezado-button button{
@@ -138,10 +144,7 @@ a.addresss:hover, a.addresss:active, a.addresss:link{
 	/*** slider ***/
 
 
-h1{
-	font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-	
-}
+
 
 /**** Fin Header ******/
 
@@ -154,11 +157,12 @@ div.line{
 }
 
 h2{
-	font-size: 50px;
-	font-family: 'Give You Glory', cursive;
-	text-align: center;
+	font-size: 30px;
+	padding-top: 40px;
+		text-align: center;
 	margin-right: auto;
 	margin-left: auto;
+	color: #8f7655;
 }
 
 div.imagenes{
@@ -290,9 +294,9 @@ div.footer-navs ul li{
 }
 
 h3{
-	color: #333333;
-	font-family: 'Lora', cursive;
+	color:#8f7655;
 	font-weight: bold;
+	font-size: 15px;
 }
 
 h6{
@@ -759,7 +763,7 @@ div.map-info{
 /******** animaciones h1  *********/
 
  h1 a.smooth{
-	color: #fff !important;
+	color: #8f7655 !important;
 	transition-property: color !important;
 	transition-duration: .5s !important;
 	text-decoration: none;
@@ -836,9 +840,10 @@ div.img{
 	margin-bottom: 20px;
 }
 
-div#quienes{
+div#quienes p, div#quienes li{
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-	font-size: 20px;
+	font-size: 18px !important;
+	color: #333;
 }
 
 
@@ -1048,6 +1053,7 @@ a.btn_escribenos{
 
 div.contact100-form-title, div.contact100-form-title p{
 	color: #000;
+	line-height: 2;
 }
 
 .error{
@@ -1088,3 +1094,8 @@ background: #333;
 	padding: 20px;
 	background: #fff;
 }
+
+.menu-item{
+	color: rgb(139, 0, 139);
+}
+

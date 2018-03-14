@@ -7,7 +7,7 @@ $(function(){
 $(document).on('scroll', function(){
 var doc = $(document);
 var $scrolltop = doc.scrollTop();
-if($scrolltop>=350 && $scrolltop <= (getHeight() - 850)){
+if($scrolltop>=650 && $scrolltop <= (getHeight() - 950)){
 
 	$sidenav.addClass('sidenav');
 	

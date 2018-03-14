@@ -48,17 +48,17 @@
 		<div class="slItems">
 			<div class="slItem" style="background-image: url('https://unsplash.it/1920/1080?image=990');">
 				<div class="slText">
-					<h1 class="center"><a href="/" class="smooth">Iglesia Bautista <br/>Hispana de Conroe</a></h1>
+				
 				</div>
 			</div>
 			<div class="slItem" style="background-image: url('https://unsplash.it/1920/1080?image=976');">
 				<div class="slText">
-					<h1 class="center"><a href="/" class="smooth">Iglesia Bautista <br/>Hispana de Conroe</a></h1>
+					
 				</div>
 			</div>
 			<div class="slItem" style="background-image: url('https://unsplash.it/1920/1080?image=950');">
 				<div class="slText">
-					<h1 class="center"><a href="/" class="smooth">Iglesia Bautista <br/>Hispana de Conroe</a></h1>
+					
 				</div>
 			</div>
 		</div>

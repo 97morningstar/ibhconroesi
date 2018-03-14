@@ -54,7 +54,7 @@
 <div class="wrap-contact100">
 			<div class="contact100-form-title" >
 				<h2 id="cont">Contactos</h2>
-			<p class="text-center lead">Estamos para servirte <br>No dudes en contactarnos</p>
+			<p style="font-size: 18px;" class="text-center">Estamos para servirte <br>No dudes en contactarnos</p>
 			<p class="text-center ">
 				<strong>Pastor:</strong> Isaias Martinez. <br>
 				(281) 854-7133 <br>

@@ -142,42 +142,48 @@
                    	  	 	Editar
                    	  	 @endif
                    	 		 Menú
-                   	 		 <small>Lorem ipsum</small>
+                   	 		 <br>
+                   	 		 <span class="fa fa-home"> </span> 
                    		</a></li>
 	                  <li class="menu-item {{ activeMenu('servicios') }}"><a href="/servicios">
 	                  	 @if(auth()->check())
                    	  	 	Editar
                    	  	 @endif
 	                    	Servicios
-	                    	<small>Lorem ipsum</small>
+	                    	<br>
+	                    	<span class="fa fa-clock"> 
 	                  </a></li>
 	                  <li class="menu-item {{ activeMenu('eventos') }}"><a href="/eventos">
 	                  	 @if(auth()->check())
                    	  	 	Editar
                    	  	 @endif
 	                        Eventos
-	                        <small>Lorem ipsum</small>
+	                        <br>
+	                        <span class="fa fa-calendar-alt"> 
 	                    </a></li>
 	                  <li class="menu-item {{ activeMenu('quienessomos') }}"><a href="/quienessomos">
 	                  	 @if(auth()->check())
                    	  	 	Editar
                    	  	 @endif
 	                  		Quienes Somos
-	                  		<small>Lorem ipsum</small>
+	                  		<br>
+	                  		<span class="fa fa-question-circle"> </span>
 	                  	</a></li>
 	                  <li class="menu-item {{ activeMenu('galeria') }}"><a href="/galeria">
 	                  	 @if(auth()->check())
                    	  	 	Editar
                    	  	 @endif
 	                  		Galería
-	                  		<small>Lorem ipsum</small>
+	                  		<br>
+	                  		<span class="fa fa-images"> </span>
 	                  	</a></li>
 	                  <li class="menu-item {{ activeMenu('contactos') }}"><a href="/contactos">
 	                  	 @if(auth()->check())
                    	  	 	Editar
                    	  	 @endif
 	                        Contactos
-	                        <small>Lorem ipsum</small>
+	                        <br>
+	                        <span class="fa fa-envelope"> </span>
 	                    </a></li>
 	                    <li class="menu-item hidden-sm hidden-xm hidden-lg hidden-md">
 	                    	<a style="font-size: 40px" href="https://www.facebook.com/ibhconroe/" target="_blank"><span class="fab fa-facebook-square"> </span></a>
@@ -201,8 +207,7 @@
 		<div id="middle">
 			@yield('content')
 		</div>
-		
-	@include('templates.form_contact')
+	
 	@include('templates.footer')
 
 

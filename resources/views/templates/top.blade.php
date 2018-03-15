@@ -2,7 +2,7 @@
 		<div class="pull-left encabezado-frase">
 			<a href="https://www.facebook.com/ibhconroe/" target="_blank"><span class="fab fa-facebook-square"> </span></a>
 			<a href="https://twitter.com/ibhconroe" target="_blank"><span class="fab fa-twitter-square"> </span></a>
-			<a href="mailto:ibhconroe@gmail.com" target="_blank"><span class="far fa-envelope"> </span></a>
+			<a href="mailto:ibhconroe@gmail.com" target="_blank"><span class="fa fa-envelope"> </span></a>
 
 		</div>
 		<div class="encabezado-info">

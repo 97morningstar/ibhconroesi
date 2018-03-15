@@ -16,7 +16,7 @@
 								<figure>
 										<img src="images/4.jpeg" width="200px" height="200px" class="images">
 								</figure>
-							<h3>Visión</h3>
+							<h2>Visión</h2>
 						</a>
 					<p class="texto">
 						Ser La Iglesia de Jesucristo que nuestra Comunidad necesita para glorificar a Dios en cumplimiento de La Gran Comisión. <br>
@@ -28,7 +28,7 @@
 								<figure>
 										<img src="images/received_268536743658288.jpeg" width="200px" height="200px" class="images">
 								</figure>
-							<h3>Servicios</h3>
+							<h2>Servicios</h2>
 					 	</a>
 					<p class="texto">
 						Servicios Regulares de la Iglesia <br>
@@ -42,7 +42,7 @@
 								<figure>
 										<img src="images/images.jpg" width="200px" height="200px" class="images">
 								</figure>
-							<h3>Eventos</h3>
+							<h2>Eventos</h2>
 						</a>
 					<p class="texto">
 						Eventos en el año 2018. 

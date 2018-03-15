@@ -23,13 +23,13 @@
 			<div class="footer-navs col-sm-12 col-md-7">
 				<div class="col-xs-12 col-sm-3 col-md-3">
 					<ul>
-						  <li><a href="/"><span class="fas fa-home"> </span> Menú</a></li>
-	                     <li><a href="/servicios"><span class="fas fa-clock"> </span> Servicios</a></li>
-	                     <li><a href="/eventos"><span class="fas fa-calendar-alt"> </span> Eventos</a></li>
+						  <li><a href="/"><span class="fa fa-home"> </span> Menú</a></li>
+	                     <li><a href="/servicios"><span class="fa fa-clock"> </span> Servicios</a></li>
+	                     <li><a href="/eventos"><span class="fa fa-calendar-alt"> </span> Eventos</a></li>
 	                     
-	                     <li><a href="/quienessomos"><span class="fas fa-question-circle"> </span> Quiénes Somos</a></li> 
-	                     <li ><a href="/galeria"><span class="fas fa-images"> </span> Galería</a></li>
-	                     <li><a href="/contactos"><span class="fas fa-envelope"> </span> Contactos</a></li>
+	                     <li><a href="/quienessomos"><span class="fa fa-question-circle"> </span> Quiénes Somos</a></li> 
+	                     <li ><a href="/galeria"><span class="fa fa-images"> </span> Galería</a></li>
+	                     <li><a href="/contactos"><span class="fa fa-envelope"> </span> Contactos</a></li>
 
 
 	                     

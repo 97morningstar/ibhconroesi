@@ -115,3 +115,8 @@ Route::get('/quienessomos#section5', function(){
 Route::get('/quienessomos#section6', function(){
 	return view('quienessomos#section6');
 });
+
+// Events Routes
+
+Route::get('/eventos/create', ['as' => 'eventos.create', 'uses' => 'EventController@create']);
+Route::get('/eventos/store', ['as' => 'eventos.store', 'uses' => 'EventController@store']);

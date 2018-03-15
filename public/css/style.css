@@ -1023,7 +1023,7 @@ p {
 .site-header {
   position: relative;
   z-index: 999;
-  background: white;
+  background: #fff;
   text-align: center;
   padding: 0px 0 0px; }
 
@@ -1048,7 +1048,11 @@ p {
     outline: none; }
     @media screen and (max-width: 990px) {
       .main-navigation .menu-toggle {
-        display: inline-block; } }
+        display: inline-block;
+        font-size: 20px;
+        color: #8f7655;
+         }
+     }
   .main-navigation .menu {
     list-style: none; }
     @media screen and (max-width: 990px) {
@@ -1074,9 +1078,14 @@ p {
           font-weight: 300;
           font-size: 10px;
           font-size: 0.7142857143rem; }
-      .main-navigation .menu .menu-item.current-menu-item a, .main-navigation .menu .menu-item:hover a {
+      .main-navigation .menu .menu-item.current-menu-item a {
         border-bottom-color: #8f7655;
         border-width: 2px; }
+
+.main-navigation .menu .menu-item:hover a {
+         border-bottom-color: #8B008B;
+        border-width: 2px;
+}
 
 .mobile-navigation {
   padding: 30px 0;
@@ -1095,7 +1104,9 @@ p {
       text-transform: uppercase;
       font-weight: 400;
       display: block;
-      padding: 10px 20px; }
+      padding: 10px 20px; 
+      font-size: 16px;
+    }
       .mobile-navigation .menu a small {
         display: block;
         color: #a59e95; }

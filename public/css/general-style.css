@@ -83,7 +83,7 @@ div.encabezado-frase{
 }
 
 div.encabezado-frase path{
-	color: #333 !important;
+	color: #8f7655 !important;
 }
 div.encabezado-frase a:hover{
 	color: #333;
@@ -106,11 +106,12 @@ div.encabezado-info-text p{
 div.encabezado-button button{
 	margin-top: 10px;
 	margin-bottom: 5px ;
-	background: #8B008B;
-	border-color: #8B008B;
+	background: #8f7655;
+	border-color: #8f7655;
 	font-size: 12px;
 	padding: 5px 10px;
 		border-radius: 300px;
+		transition: all 0.4s
 }
 
 div.google-map{
@@ -242,8 +243,13 @@ footer{
 
 }
 
-footer div.footer-info, footer div.footer-navs{
+footer div.footer-navs{
 	margin-top: 80px;
+}
+
+div.footer-info{
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 h1{
@@ -261,6 +267,8 @@ h5{
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
+	background: #111;
+	width: 100%;
 }
 
 .footer-info p.address{
@@ -1099,3 +1107,11 @@ background: #333;
 	color: rgb(139, 0, 139);
 }
 
+.btn-primary:hover{
+	background-color: #8B008B;
+}
+
+.map-img{
+	background: url('../images/map.PNG');
+	background-repeat: no-repeat;
+}

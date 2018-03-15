@@ -2,8 +2,12 @@
 
 
 @section('content')
-<div class="container">
-<div class="row">
+	<div class="container-fluid ">
+	</div>
+
+<div class="container-fluid map-img">
+
+<div class="row ">
 			
 
 
@@ -73,7 +77,7 @@
 
 			<form class="contact100-form" method='POST' action="{{ route('contacto.store') }}">
 				 {!! csrf_field() !!}
-				<div class="wrap-input100 text-center">
+				<div class="wrap-input100">
 					<span class="label-input100">¿Cómo te llamas?</span>
 					
 					<input class="input100" type="text" name="nombre" value="{{ old('nombre') }}" placeholder="Escribe tu nombre">

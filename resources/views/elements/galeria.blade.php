@@ -15,6 +15,10 @@
 
 @extends('layout.app')
 
+@section('title')
+- Galeria
+@endsection
+
 
 @section('content')
 			<h2>Galería</h2>

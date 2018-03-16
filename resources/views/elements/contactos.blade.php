@@ -1,5 +1,9 @@
 @extends('layout.app')
 
+@section('title')
+- Contactos
+@endsection
+
 
 @section('content')
 	<div class="container-fluid ">

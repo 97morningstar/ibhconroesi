@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-ES">
 <head>
-	<title>Iglesia Bautista Hispana de Conroe</title>
+	<title>Iglesia Bautista Hispana de Conroe @yield('title')</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport"  content="width=device-width,initial-scale=1">
 	<meta name="keywords" content="iglesia, conroe, tx, texas, houston, isaias martinez, jesus, dios, cristo, 77301, 77304, esperanza, iglesias, evangelicas, evangelica, bautista, hispana, templo, ayuda, biblia, fe, cruz" />

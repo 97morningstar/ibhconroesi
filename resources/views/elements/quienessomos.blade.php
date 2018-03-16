@@ -3,6 +3,9 @@
   }?>
 @extends('layout.app')
 
+@section('title')
+- Quienes Somos
+@endsection
 
 @section('content')
 

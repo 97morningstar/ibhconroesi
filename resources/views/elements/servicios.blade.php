@@ -1,5 +1,7 @@
 @extends('layout.app')
-
+@section('title')
+- Servicios
+@endsection
 
 @section('content')
 			<h2>Servicios regulares de la Iglesia</h2>

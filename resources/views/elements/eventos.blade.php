@@ -1,4 +1,7 @@
 @extends('layout.app')
+@section('title')
+- Eventos
+@endsection
 
 
 @section('content')
@@ -23,7 +26,7 @@
 										<a href="#" class="button secondary">Ask a question</a>
 										<a href="#" class="button secondary">Leer más</a>
 									</li>
-									
+
 									<li>
 										<h3 class="event-title"><a href="#">Bible school</a></h3>
 										<span class="event-meta">

@@ -7,7 +7,7 @@
 
 <div class="container-fluid map-img">
 
-<div class="row ">
+<div class="row">
 			
 
 
@@ -55,7 +55,9 @@
 	--}}
 
 
-<div class="wrap-contact100">
+
+
+<div class="wrap-contact100 text-center container">
 			<div class="contact100-form-title" >
 				<h2 id="cont">Contactos</h2>
 			<p style="font-size: 18px;" class="text-center">Estamos para servirte <br>No dudes en contactarnos</p>

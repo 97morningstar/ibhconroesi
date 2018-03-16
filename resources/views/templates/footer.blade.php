@@ -68,7 +68,7 @@
 							</li>
 						</ul>
 					</div>
-					<p class="design">Made with <span class="error">&lt;3</span> by Elisa Martinez</p>
+					<p class="design">Made with <span class="error">&lt;3</span> by <a href="https://github.com/97morningstar" target="_blank">Elisa Martinez</a></p>
 					
 				</div>
 			</div>

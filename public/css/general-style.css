@@ -280,9 +280,14 @@ footer ul{
 	padding-left: 0;
 }
 
-p.design{
+p.design, p.design a{
 	font-size: 10px;
 }
+ p.design a, p.design a:active{
+ 	color: #888;
+ 	text-decoration: none;
+ }
+
 
 
 div.footer-navs a{

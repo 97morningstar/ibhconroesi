@@ -1118,5 +1118,5 @@ background: #333;
 
 .map-img{
 	background: url('../images/map.png');
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 }

@@ -222,7 +222,6 @@
 		var lcl_ai_vars = $.data(obj, 'lcl_vars', lcl_vars);		
 
 
-		
 		/////////////////////////////////////////////////////////////
 		
 		
@@ -1414,6 +1413,7 @@
 				$('#lcl_wrap').removeClass('lcl_outer_cmd').addClass('lcl_inner_cmd');
 				
 				var nav = $('#lcl_nav_cmd').detach();
+
 				$('#lcl_window').prepend(nav);		
 			}
 			
@@ -1451,7 +1451,23 @@
 		
 		/* switch element - new_el could be "next", "prev" or element index */
 		var switch_elem = function(new_el, slideshow_switch) {
-			var v 			= lcl_ai_vars; 
+			
+var v = lcl_ai_vars; 
+			
+/*==================My customization============================*/
+/*
+for (var i = 0; i < lcl_ai_vars.elems.length; i++) {
+	if(lcl_ai_vars.elems[i].class.search('alb')===-1){
+		
+		v.elems.splice(i, 1);
+	
+	}
+}*/
+/*==============================================*/
+
+
+
+
 			var carousel	= lcl_ai_opts.carousel;
 			
 			if(lcl_is_active || v.elems.length < 2 || !lcl_ai_opts.gallery || $('.lcl_switching_elem').length) {return false;}
@@ -1819,7 +1835,7 @@
 		
 		
 		/* setup thumbnails navigator */
-		var setup_thumbs_nav = function() {
+		var setup_thumbs_nav = function() { 
 			var mixed_types = false;
 			var tracked_type = false;
 			var uniq_id = Date.now();
@@ -2164,6 +2180,7 @@
 				.on('click', lcl_vars.elems_selector, function(e) {
 					e.preventDefault();
 					
+					console.log(lcl_vars.elems_selector);
 					// update elements count - live 
 					var vars = $.data(obj, 'lcl_vars');	
 					vars.elems_count = $(lcl_vars.elems_selector).length;
@@ -2697,6 +2714,8 @@
 			
 			lcl_ai_vars = $.data(lcl_curr_obj, 'lcl_vars');
 			lcl_ai_opts = $.data(lcl_curr_obj, 'lcl_settings');
+
+
 
 			if(!lcl_ai_vars) {
 				console.error('LC Lightbox. Object not initialized');

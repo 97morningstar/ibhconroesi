@@ -24,27 +24,30 @@
 
 					</ul>
 				</div>
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<h6>Recursos</h6>
-					<ul>
-						<li><a href="http://www.biblia.es/reina-valera-1960.php" target="_blank"><span class="fas fa-book"> </span> Biblia Online</a></li>
-						<li><a href="#"><span class="fas fa-calendar"> </span> Calendario</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<h6>Contáctanos</h6>
-					<ul>
-						<li><a href="/oracion"><span class="fas fa-hand-paper"> </span> Pedir Oración</a></li>
-						<li><a href="/contactos"><span class="fas fa-pencil-alt"> </span> Escríbenos</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-12 col-sm-3 col-md-3">
-					<h6>Quienes somos</h6>
-					<ul>
-						<li><a href="/quienessomos#section6"><span class="fas fa-hand-point-up"> </span> En qué creemos</a></li>
-						<li><a href="/lideres"><span class="fas fa-angle-double-right"> </span> Líderes</a></li>
-						<li><a href="#top" class="scroll"><span class="fas fa-arrow-up"> </span> Volver arriba</a></li>
-					</ul>
+
+				<div class="pull-right col-xs-12 col-md-6">
+					<div class="col-xs-6 col-sm-3 col-md-3">
+						<h6>Recursos</h6>
+						<ul>
+							<li><a href="http://www.biblia.es/reina-valera-1960.php" target="_blank"><span class="fas fa-book"> </span> Biblia Online</a></li>
+							<li><a href="#"><span class="fas fa-calendar"> </span> Calendario</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3">
+						<h6>Contáctanos</h6>
+						<ul>
+							<li><a href="/oracion"><span class="fas fa-hand-paper"> </span> Pedir Oración</a></li>
+							<li><a href="/contactos"><span class="fas fa-pencil-alt"> </span> Escríbenos</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-md-3">
+						<h6>Quienes somos</h6>
+						<ul>
+							<li><a href="/quienessomos#section6"><span class="fas fa-hand-point-up"> </span> En qué creemos</a></li>
+							<li><a href="/lideres"><span class="fas fa-angle-double-right"> </span> Líderes</a></li>
+							<li><a href="#top" class="scroll"><span class="fas fa-arrow-up"> </span> Volver arriba</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			

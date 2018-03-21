@@ -231,10 +231,8 @@
 		<script type='text/javascript' src='/api/lib/gcal.js'></script>
 
 		<script type="text/javascript" src="/js/custom.js"></script>
-		<script type="text/javascript" src="/js/particles.js"></script>
-		<script type="text/javascript" src="/js/partApp.js"></script>
 		<script type="text/javascript" src="/js/slider.min.js"></script>
-		<script type="text/javascript" src="/js/app-min.js"></script>
+		
 		
 <!-- FIN Js files -->
 

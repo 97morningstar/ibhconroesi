@@ -257,8 +257,10 @@ div.footer-info{
 	padding-bottom: 30px;
 }
 
-h1{
+h1 a{
 	font-weight: bold;
+	font-family: 'Lora' !important;
+	text-transform: uppercase;
 }
 
 h5{

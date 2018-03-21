@@ -24,6 +24,7 @@
 			<h2>Galería</h2>
 	
 			<h2 style="font-size: 20px;">Álbumes</h2>
+      <p class="text-center">Haz click en un álbum para ver más</p>
 			
 				@if(auth()->check())
 				<div class="container">

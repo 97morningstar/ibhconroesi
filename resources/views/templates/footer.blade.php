@@ -1,7 +1,7 @@
 <footer>
 		<div class="container-fluid">
 			<div class="footer-navs col-sm-12 col-md-12">
-				<div class="col-xs-12 col-sm-3 col-md-3">
+				<div class="col-xs-12 col-sm-12 col-md-3">
 					<ul>
 						  <li><a href="/"><span class="fa fa-home"> </span> Menú</a></li>
 	                     <li><a href="/servicios"><span class="fa fa-clock"> </span> Servicios</a></li>
@@ -25,22 +25,22 @@
 					</ul>
 				</div>
 
-				<div class="pull-right col-xs-12 col-md-6">
-					<div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="pull-right col-xs-12 col-sm-12 col-md-6">
+					<div class="col-xs-6 col-sm-4 col-md-3">
 						<h6>Recursos</h6>
 						<ul>
 							<li><a href="http://www.biblia.es/reina-valera-1960.php" target="_blank"><span class="fas fa-book"> </span> Biblia Online</a></li>
 							<li><a href="#"><span class="fas fa-calendar"> </span> Calendario</a></li>
 						</ul>
 					</div>
-					<div class="col-xs-6 col-sm-3 col-md-3">
+					<div class="col-xs-6 col-sm-4 col-md-3">
 						<h6>Contáctanos</h6>
 						<ul>
 							<li><a href="/oracion"><span class="fas fa-hand-paper"> </span> Pedir Oración</a></li>
 							<li><a href="/contactos"><span class="fas fa-pencil-alt"> </span> Escríbenos</a></li>
 						</ul>
 					</div>
-					<div class="col-xs-12 col-sm-3 col-md-3">
+					<div class="col-xs-12 col-sm-4 col-md-3">
 						<h6>Quienes somos</h6>
 						<ul>
 							<li><a href="/quienessomos#section6"><span class="fas fa-hand-point-up"> </span> En qué creemos</a></li>

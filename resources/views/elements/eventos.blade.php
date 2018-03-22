@@ -30,7 +30,7 @@
 									<li>
 										<h3 class="event-title"><a href="#">Primer convivio en el barrio de Las Trailas</a></h3>
 										<span class="event-meta">
-											<span><i class="fa fa-calendar"></i> 18 Abril 2018</span>
+											<span><i class="fa fa-calendar"></i> 18 marzo 2018</span>
 											<span><i class="fa fa-map-marker"></i> Las Trailas</span>
 										</span>
 										<p>Tiempo de esparcimiento con todas las familias de esa comunidad a fin de mostrarles confianza, ayudarles en sus necesidades y promocionar el trabajo de la Iglesia</p>
